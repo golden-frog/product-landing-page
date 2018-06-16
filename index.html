@@ -13,11 +13,11 @@
 
   <!-- start header -->
   <header id="header">
-    <img id="header-img" src="http://puntahamra.com/images/django.jpg" alt="logo">
     <nav id="nav-bar">
-      <a class="nav-link" href="#header">header</a>
-      <a class="nav-link" href="#main">main</a>
-      <a class="nav-link" href="#footer">footer</a>
+      <img id="header-img" src="http://puntahamra.com/projects/product-landing-page/coffee.png" alt="logo">
+      <a class="nav-link" href="#video">movie</a>
+      <a class="nav-link" href="#form">sample</a>
+      <a class="nav-link" href="#features">features</a>
     </nav>
   </header>
   <!-- end header -->
@@ -25,16 +25,40 @@
   <!-- start main -->
   <main id="main">
 
-    <!-- video -->
-    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/f1to6c7JShI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <section id="product"><h1>Coffee</h1></section>
+
+    <div id="productimage">
+    <img id="product-image" src="http://puntahamra.com/projects/product-landing-page/coffee.png">
+    </div>
+
+    <section id="quote">Patience is the time between drinking a cup of coffee and the motivation to begin your day</section>
+
+    <section id="features">
+      <div class="feature">
+        <div class="type">Arabica</div>
+        <div class="description">Sweet, soft taste, with tones of sugar, fruit, and berries. The winey taste characterizes excellent acidity.</div>
+      </div>
+      <div class="feature">
+        <div class="type">Robusta</div>
+        <div class="description">Strong, with a grain-like overtone and peanutty aftertaste. Twice as much caffeine as Arabica beans.</div>
+      </div>
+      <div class="feature">
+        <div class="type">Blended</div>
+        <div class="description">The ideal mix of Arabica and Robusta coffee, with high caffeine and a great acidity.</div>
+      </div>
+    </section>
 
     <!-- form -->
     <form id="form" action="https://www.freecodecamp.com/email-submit">
-
-      <input id="email" type="email" name="email" placeholder="Enter your email address">
+      <div id="apply">Apply for a sample</div>
+      <input id="email" type="email" name="email" placeholder="Enter your email address"><br>
       <input id="submit" type="submit" value="Submit">
 
     </form>
+    <!-- video -->
+    <div id="videodiv">
+  <iframe id="video" height="315" src="https://www.youtube.com/embed/iPM98OXhLVA?controls=0&showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
 
   </main>
   <!-- end main -->
